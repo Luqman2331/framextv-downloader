@@ -165,6 +165,19 @@ streamdown/
 
 ---
 
+## 🧰 CLI & UI Ringkas
+
+Selain dashboard utama, repo ini turut menyertakan set CLI/UI ringkas yang
+berdiri sendiri (tidak menggunakan `app.py`/`src/`):
+
+- `framextv.py` — CLI satu link
+- `bulk.py` / `bulk.sh` — muat turun pukal (musim / julat episode / banyak URL)
+- `web.py` / `ui.sh` / `desktop.sh` — UI web ringkas di port `8899`
+
+Rujuk [CLI.md](CLI.md) untuk arahan penuh.
+
+---
+
 ## 📜 Lisensi
 
 MIT License
